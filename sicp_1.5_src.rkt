@@ -13,8 +13,8 @@ Then he evaluates the expression
 
 
 
-If App order then returns 0
-If normal order then gets stuck in a look in (define (p)) which is recursive and never breaks the loop
+If App order    - then gets stuck in a look in (define (p)) which is recursive and never breaks the loop
+If Normal order - then returns 0
 
 
 Applicative order (or leftmost innermost) evaluation refers to an evaluation strategy in which the arguments of a function are evaluated from left to right in a post-order traversal of reducible expressions (redexes).
