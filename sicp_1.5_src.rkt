@@ -18,5 +18,6 @@ If Normal order - then returns 0
 
 
 Applicative order (or leftmost innermost) evaluation refers to an evaluation strategy in which the arguments of a function are evaluated from left to right in a post-order traversal of reducible expressions (redexes).
+
 Normal order
 Normal-order (or leftmost outermost) evaluation is the evaluation strategy where the outermost redex is always reduced, applying functions before evaluating function arguments. It differs from call-by-name in that call-by-name does not evaluate inside the body of an unapplied function[clarification needed].
